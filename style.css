@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    width: 100%;
+    height: 100px ;
+    
+}
+ul{
+    text-align: right;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    
+    line-height: 100px;
+    padding: 0 15px ;
+    font-weight: bold;
+    
+}
+ul li a{
+
+    display: block;
+    text-decoration: 0;
+    font-size: 20px ;
+    font-family: Georgia;
+    color:black;
+    
+}
+ul li a:hover{
+
+    color:rgb(89, 178, 219);
+    
+}
+.intro{
+    color: rgb(85, 83, 81);
+    font-size: 35px;
+    margin-left: 900px;
+    margin-top: 25px;
+    width: 600px;
+
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 24%;
+    padding: 7.1px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+h1{
+    margin-left: 900px;
+    margin-top: 100px;
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+    margin-top: 50px;
+
+}
+.skills{
+    font-size: 50px;
+}
+.button {
+    background-color: #34cacf; 
+    border:rgb(180, 151, 32);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 900px;
+    margin-top: 25px;
+    font-family: Georgia;
+  }
+  .button:hover
+  {
+      cursor: pointer;
+      background-color: #1a888b;
+  }
+
+    
+.about{margin-left: 680px ;
+    margin-top: 400px;
+}
+.skills{
+    padding-top: 50px;
+}
+
+    
+
+.aboutus{
+    color: rgb(85, 83, 81);
+    font-size: 24px;
+    margin-left: 500px;
+    text-align: center;
+}
+.design{
+    font-size: 22px;
+    color: black;
+    font-family: Georgia;
+    text-align: left;
+    margin-top: 70px;
+   
+}
+.web{
+    font-size: 22px;
+    color: black;
+    font-family: Georgia;
+    text-align: left;
+    margin-top: 70px;
+}
+.marketing{
+    font-size: 22px;
+    color: black;
+    font-family: Georgia;
+    text-align: left;
+    margin-top: 70px;
+}
+.f{
+    background-color: burlywood;
+    font-size: 40px;
+    font-family: Georgia;
+    
+}
+.footer{
+    margin-top: 285px;
+    display: flex;
+    height: 120px;
+    text-align: center;
+
+}
+.work{
+    font-size: 50px;
+}
+.load{
+    text-align: center;
+    background-color: burlywood;
+    color: rgb(77, 72, 72);
+    font-size: 22px;
+    font-family: Georgia;
+    padding: 50px;
+}
+.Work_process
+{
+    font-size: 35px;
+    font-family: Georgia;
+    text-align: center;
+    margin-top: 27px;
+    
+}
+#file{
+    width: 40%;
+    margin-top: 10px;
+}
+.workpro{
+    width: 50%;
+    padding: 50px;
+    font-size: 30px;
+    font-family: Georgia;
+    color: rgb(71, 68, 68);
+    text-align: center;
+    margin-left: 350px;
+
+}
+.services{
+    background-color: burlywood;
+    width: 96%;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.service{
+    width: 160px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: white;
+    
+    font-family: Georgia;
+
+}
+/* Slideshow container */
+.slideshow-container {
+    margin-top: 7px;
+    position: relative;
+    background:burlywood;
+    width: 98.62%;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+      width: 96%;
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  
+  
+  /* Add a blue color to the author */
+  .author {color: rgb(31, 29, 29);
+font-size: 40px;
+font-style: italic;}
+.project
+{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+}
+#name {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(92, 89, 89);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #email
+    {
+        width: 30%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid rgb(92, 89, 89);
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+  #title
+  {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(92, 89, 89);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #comment
+  {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(92, 89, 89);
+    border-radius: 4px;
+    box-sizing: border-box;
+
+  }
+  .sendmsg {
+    background-color: #34cacf; 
+    border:rgb(180, 151, 32);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 600px;
+    margin-top: 25px;
+    font-family: Georgia;
+  }
+  .sendmsg:hover
+  {
+      cursor: pointer;
+      background-color: #1a888b;
+  }
